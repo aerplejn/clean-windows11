@@ -1,13 +1,10 @@
-# clean-windows11
+# clean-windows
 auto script for windows 11
 
 ### How to use
 1. Download official windows iso from microsoft https://www.microsoft.com/sv-se/software-download/windows11
 2. Download AnyBurn https://www.anyburn.com/download.php
 3. Create your own iso by using the xml file
-
-
-
 
 
 ### Key Features
