@@ -1,4 +1,4 @@
-# Unattended Windows Installation
+# Minimal Windows Installation
 
 This project leverages Microsoft's [Answer Files](https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/update-windows-settings-and-scripts-create-your-own-answer-file-sxs?view=windows-11) (or Unattend files) to automate and customize Windows installations. It allows for modifications to Windows settings and package installations directly from the Windows ISO during setup.
 
