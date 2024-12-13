@@ -159,10 +159,6 @@ To use an answer file, include `autounattend.xml` at the root of your Windows In
 
 ## FAQ
 
-### How can I apply these settings to an existing Windows installation?
-
-- Run the [`UWScript.ps1`](https://github.com/memstechtips/UnattendedWinstall/blob/main/UWScript.ps1) file or use the [Chris Titus Tech Windows Utility](https://github.com/ChrisTitusTech/winutil) ([Video](https://youtu.be/pldFPTnOCGM)).
-
 ### Can this answer file be used for an in-place upgrade?
 
 - No, in-place upgrades do not support answer files.
@@ -185,45 +181,3 @@ To use an answer file, include `autounattend.xml` at the root of your Windows In
   3. **Install the driver** on your Windows system and restart if necessary.
 
   After installation, you should be able to connect to the internet.
-
-</details>
-
-### How can I access the previous "IoT-LTSC-Like," "Standard," and "Core" versions of the file(s)?
-
-  - You still have access to the previous files here: [Version 1.0.0 Release](https://github.com/memstechtips/UnattendedWinstall/releases/tag/v1.0.0).
-
-  > [!NOTE]  
-  > You need to download the `Source Code.zip` file. Once extracted, you’ll have access to all the previous v1.0.0 files.
-
-### Why isn't Microsoft Edge Uninstalled?
-
-<details>
-  <summary>Click to Show Explanation</summary>
-
-  I spent a lot of time trying to find a way to uninstall Microsoft Edge during Windows installation. However, it was challenging because of differences between Windows 10 22H2 and Windows 11 24H2. My goal is to use Microsoft’s supported uninstall methods, and I plan to add an easy Edge removal option in future releases.
-
-  In the meantime, if you wish to remove Edge after Windows installation, consider using [this script by FR33THY](https://github.com/FR33THYFR33THY/Ultimate-Windows-Optimization-Guide/blob/main/6%20Windows/14%20Edge.ps1). FR33THY’s *Ultimate Windows Optimization Guide* was a major inspiration for version 2.0.0 of this project, and I highly recommend exploring it for additional Windows optimization tips.
-
-</details>
-
-### How can I add my own Registry Tweaks to v2.0.0 of the `autounattend.xml` file?
-
-<details>
-  <summary>Click to Show Instructions</summary>
-
-  You can also still add your own registry entries to the v2.0.0 file, and it is actually easier if you understand where to add it. I'll give a brief explanation.
-
-  For registry entries that apply to the local machine, i.e., `HKEY_LOCAL_MACHINE` registry keys, you can find the `function SetRecommendedHKLMRegistry` in the `autounattend.xml` file, see here: https://github.com/memstechtips/UnattendedWinstall/blob/93305192ed6d64e0f5b98a89f447927480285354/autounattend.xml#L1981
-
-  and then add whatever registry entries you want to add in `.reg` format, like the rest of the entries are set, and just make sure you add it before the `"@` to make it part of the `.reg` file that will be generated, see here: https://github.com/memstechtips/UnattendedWinstall/blob/93305192ed6d64e0f5b98a89f447927480285354/autounattend.xml#L3412
-
-  and it will then be applied to the registry.
-
-  Similarly, if you have `HKEY_CURRENT_USER` registry keys, you can add those to the `User Customization.ps1` file in the same way as explained above, starting here:
-  https://github.com/memstechtips/UnattendedWinstall/blob/93305192ed6d64e0f5b98a89f447927480285354/autounattend.xml#L3912
-  so below the `Windows Registry Editor Version 5.00` and then ending before the `"@` here: https://github.com/memstechtips/UnattendedWinstall/blob/93305192ed6d64e0f5b98a89f447927480285354/autounattend.xml#L4423
-
-  > **Note**  
-  > The above links might not take you to the correct lines of code once new versions of the file are released, but it does take you to the correct lines on v2.0.0.
-
-</details>
