@@ -18,9 +18,9 @@ This leverages Microsoft's [Answer Files](https://learn.microsoft.com/en-us/wind
   - *(Tested on Windows 10 22H2 & Windows 11 24H2)*
   - *(32-bit, 64-bit and arm64 is supported)*
 
-## What Does UnattendedWinstall Do?
+## What Does The Xml File Do?
 
-The UnattendedWinstall answer file comes with detailed descriptions for nearly all configurations and registry tweaks, which are available for inspection here on GitHub. For customization, download the answer file and open it in editors like [Cursor](https://www.cursor.com/) or [VSCode](https://code.visualstudio.com/).
+The xml file comes with detailed descriptions for nearly all configurations and registry tweaks, which are available for inspection here on GitHub. For customization, download the answer file and open it in editors like [Cursor](https://www.cursor.com/) or [VSCode](https://code.visualstudio.com/).
 
 ### Sources and Contributions
 
