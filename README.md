@@ -14,29 +14,6 @@ This leverages Microsoft's [Answer Files](https://learn.microsoft.com/en-us/wind
 
 - Enables automated configuration across multiple devices, saving time and effort by eliminating repetitive manual setups.
 
-> [!NOTE] 
-> UnattendedWinstall has been tested and optimized for personal use. For those interested in customizing further, [create your own answer file](https://schneegans.de/windows/unattend-generator/) following [this video guide](https://youtu.be/WyLiJl-NQU8).
-
-### Versions
-
-[![Version 2 Release (Latest)](https://img.shields.io/badge/Version-2.1.0%20Latest-0078D4?style=for-the-badge&logo=github&logoColor=white)](https://github.com/memstechtips/UnattendedWinstall/releases/tag/v2.1.0)
-[![Version 1 Release](https://img.shields.io/badge/Version-1.0.0-FFA500?style=for-the-badge&logo=github&logoColor=white)](https://github.com/memstechtips/UnattendedWinstall/releases/tag/v1.0.0)
-
-### Support the Project
-
-If UnattendedWinstall has been useful to you, consider supporting the project, it really does help!
-
-[![Support via PayPal](https://img.shields.io/badge/Support-via%20PayPal-FFD700?style=for-the-badge&logo=paypal&logoColor=white)](https://paypal.me/memstech)
-
-### Feedback and Community
-
-If you have feedback, suggestions, or need help with UnattendedWinstall, please feel free to join the discussion on GitHub or our Discord community:
-
-[![Join the Discussion](https://img.shields.io/badge/Join-the%20Discussion-2D9F2D?style=for-the-badge&logo=github&logoColor=white)](https://github.com/memstechtips/UnattendedWinstall/discussions)
-[![Join Discord Community](https://img.shields.io/badge/Join-Discord%20Community-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://www.discord.gg/zWGANV8QAX)
-
-## Requirements
-
 - Windows 10 or Windows 11  
   - *(Tested on Windows 10 22H2 & Windows 11 24H2)*
   - *(32-bit, 64-bit and arm64 is supported)*
