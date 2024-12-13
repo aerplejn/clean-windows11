@@ -120,7 +120,6 @@ For more info, check out the official [WIMUtil](https://github.com/memstechtips/
 ### Old Methods
 #### Method 1: Create a Bootable Windows Installation USB
 
-- [Video Tutorial](https://youtu.be/pDEZDD_gEbo)
 
 <details>
   <summary>Click to Show Instructions</summary>
@@ -163,7 +162,6 @@ For more info, check out the official [WIMUtil](https://github.com/memstechtips/
 
 #### Method 3: Use Ventoy Auto Install Plugin
 
-- [Video Tutorial](https://youtu.be/4AGZQJTyCOs)
 
 <details>
   <summary>Click to Show Instructions</summary>
