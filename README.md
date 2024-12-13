@@ -1,8 +1,6 @@
-# UnattendedWinstall
-
 ## Introduction
 
-UnattendedWinstall leverages Microsoft's [Answer Files](https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/update-windows-settings-and-scripts-create-your-own-answer-file-sxs?view=windows-11) (or Unattend files) to automate and customize Windows installations. </br> It enables modifications to Windows Settings and Packages directly in the Windows ISO during setup.
+This leverages Microsoft's [Answer Files](https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/update-windows-settings-and-scripts-create-your-own-answer-file-sxs?view=windows-11) (or Unattend files) to automate and customize Windows installations. </br> It enables modifications to Windows Settings and Packages directly in the Windows ISO during setup.
 
 ### Why Use an Answer File?
 
