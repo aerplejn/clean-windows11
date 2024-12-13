@@ -139,7 +139,6 @@ For more info, check out the official [WIMUtil](https://github.com/memstechtips/
 
 #### Method 2: Create a Custom ISO File
 
-- [Video Tutorial](https://youtu.be/pDEZDD_gEbo?si=ChEGghEOLCyLSnp7&t=1117)
 
 <details>
   <summary>Click to Show Instructions</summary>
