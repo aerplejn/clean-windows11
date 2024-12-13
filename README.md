@@ -113,7 +113,6 @@ Once launched, **WIMUtil** guides you through a wizard:
 6. **Copy the New ISO File to the Ventoy Flash Drive**
 7. **Boot from the USB flash drive, choose your ISO & Install Windows**
 
-For more info, check out the official [WIMUtil](https://github.com/memstechtips/WIMUtil) GitHub Repo.
 
 ---
 
