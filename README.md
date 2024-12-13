@@ -85,38 +85,6 @@ To use an answer file, include `autounattend.xml` at the root of your Windows In
 
 ---
 
-### Using Memory's [WIMUtil](https://github.com/memstechtips/WIMUtil) (Highly Preferred)
-
-To use **WIMUtil**, follow these steps to launch PowerShell as an Administrator and run the installation script:
-
-1. **Open PowerShell as Administrator:**
-   - **Windows 10/11**: Right-click on the **Start** button and select **Windows PowerShell (Admin)** or **Windows Terminal (Admin)**. </br> PowerShell will open in a new window.
-
-2. **Confirm Administrator Privileges**: 
-   - If prompted by the User Account Control (UAC), click **Yes** to allow PowerShell to run as an administrator.
-
-3. **Paste and Run the Command**:
-   - Copy the following command:
-     ```powershell
-     irm "https://github.com/memstechtips/WIMUtil/raw/main/src/WIMUtil.ps1" | iex
-     ```
-   - To paste into PowerShell, **Right-Click** or press **Ctrl + V** in the PowerShell or Terminal window. </br> This should automatically paste your copied command.
-   - Press **Enter** to execute the command.
-
-Once launched, **WIMUtil** guides you through a wizard:
-
-1. **Select or Download Windows ISO**
-2. **Add Latest UnattendedWinstall Answer File Automatically**
-3. **Extract and Add Current Device Drivers to Installation Media**
-4. **Create New ISO with Customizations Included**
-5. **Create a Bootable USB Flash Drive with [Ventoy](https://github.com/ventoy/Ventoy)**
-6. **Copy the New ISO File to the Ventoy Flash Drive**
-7. **Boot from the USB flash drive, choose your ISO & Install Windows**
-
-
----
-
-### Old Methods
 #### Method 1: Create a Bootable Windows Installation USB
 
 
